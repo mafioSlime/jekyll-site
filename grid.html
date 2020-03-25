@@ -1,0 +1,46 @@
+---
+layout: page
+title: Grid
+permalink: /grid/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .title {
+        font-size: 2rem;
+        color: lightsalmon;
+      }
+      img {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      @media (min-width: 700px) {
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Meditation Grid</h1>
+    <main class="grid">
+      <img src="/images/grid1.jpg" alt="meditate 1" />
+      <img src="/images/grid2.jpg" alt="meditate 2" />
+      <img src="/images/grid3.jpg" alt="meditate 3" />
+      <img src="/images/grid4.jpg" alt="meditate 4" />
+      <img src="/images/grid5.jpg" alt="meditate 5" />
+      <img src="/images/grid6.jpg" alt="meditate 6" />
+      <img src="/images/grid7.jpg" alt="meditate 7" />
+      <img src="/images/grid8.jpg" alt="meditate 8" />
+      <img src="/images/grid9.jpg" alt="meditate 9" />
+    </main>
+  </body>
+</html>
