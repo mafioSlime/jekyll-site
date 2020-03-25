@@ -1,0 +1,47 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: Home
+permalink: /
+layout: home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      img {
+        margin-bottom: 3rem;
+      }
+      section h1 {
+        font-size: 2rem;
+        color: lightsalmon;
+      }
+      @media (min-width: 758px) {
+        section {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: auto;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+        }
+        section div {
+          padding: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img src="/images/home-image.jpg" alt="person meditating" />
+      <div>
+        <h1>Welcome to Enlightened</h1>
+        <p>Meditate with millions of people around the world...</p>
+      </div>
+    </section>
+  </body>
+</html>
